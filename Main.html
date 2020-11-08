@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalakriti</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Title -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="">
+          <img
+            src="assets/imgs/logo.png"
+            alt="Kalakriti Logo"
+            class="logo-img"
+          />
+          <span class="navbar-caption-wrap">
+            K A L A K R I T I <br />
+            <span class="sub-caption">The Creative Arts Society of DTU </span>
+          </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-auto">
+            <li class="nav-item center">
+              <a class="nav-link" href="Main.html">HOME</a>
+            </li>
+            <li class="nav-item center">
+              <a class="nav-link" href="Initiative.html">INITIATIVES</a>
+            </li>
+            <li class="nav-item center">
+              <a class="nav-link" href="abhivyakti.html">ABHIVYAKTI</a>
+            </li>
+            <li class="nav-item center">
+              <a class="nav-link" href="team.html">TEAM</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.facebook.com/KalakritiTheCreativeArtsSociety/"
+                target="_blank"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/kalakriti_dtu/"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.linkedin.com/school/kalakritidtu/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!--  --------------------------------------------------------------------------------- -->
+    <section id="particle">
+      <div class="jumbotron jumbotron-main" id="home" style="padding: 0">
+        <div id="particles-js"></div>
+        <div class="container">
+          <div class="center-vertically">
+            <div
+              id="scaleReveal"
+              class="col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3 text-center"
+            >
+              <span class="big-logo"
+                ><img
+                  src="assets/imgs/kalakriti-white-background.png"
+                  height="300em"
+              /></span>
+              <h1>KALAKRITI</h1>
+              <p>The Creative Arts Society of DTU</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------------------------------------------------------------------------------- -->
+
+    <section class="title" style="margin-top: 0">
+      <div id="mainCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item header active">
+            <img
+              class="d-block w-100"
+              src="assets/imgs/Pen sketching poster.jpg"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item header">
+            <img
+              class="d-block w-100"
+              src="assets/imgs/backlogo.png"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item header">
+            <img
+              class="d-block w-100"
+              src="assets/imgs/Dhoni.png"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#mainCarousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#mainCarousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="features">
+      <h2>FEATURES</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <a>
+              <div
+                class="card"
+                data-aos="zoom-out-up"
+                data-aos-duration="300"
+                data-aos-offset="-200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <img
+                  class="card-img-top"
+                  src="assets/imgs/Portfolio.png"
+                  alt="Portfolio"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">PORTFOLIO</h5>
+                  <p class="card-text">
+                    We have bunch of talented artists. Wanna see their magical
+                    art.
+                  </p>
+                  <button
+                    class="btn btn-lg btn-outline-light"
+                    onclick="bootstrapAlert()"
+                  >
+                    DIVE IN
+                  </button>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4">
+            <a href="abhivyakti.html">
+              <div
+                class="card"
+                data-aos="flip-up"
+                data-aos-duration="500"
+                data-aos-offset="-200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <img
+                  class="card-img-top"
+                  src="assets/imgs/abhi-feat.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ABHIVYAKTI</h5>
+                  <p class="card-text">
+                    A two day social art extravaganza with attendance of over
+                    20k
+                  </p>
+                  <a href="abhivyakti.html" class="btn btn-lg btn-outline-light"
+                    >KNOW MORE</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4">
+            <a href="">
+              <div
+                class="card"
+                data-aos="zoom-out-up"
+                data-aos-duration="300"
+                data-aos-offset="-200"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+                <img
+                  class="card-img-top"
+                  src="assets/imgs/card3.jpeg"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">SPINBACK</h5>
+                  <p class="card-text">
+                    A unique music production unit from the brainchild of
+                    Kalakriti Dtu
+                  </p>
+                  <a
+                    href="https://www.instagram.com/spinback_bykalakriti/"
+                    target="_blank"
+                    class="btn btn-lg btn-outline-light"
+                    >EXPLORE</a
+                  >
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 about-left">
+            <img
+              class="about-logo"
+              src="assets/imgs/logo-col.png"
+              alt="Coloured - Logo"
+            />
+          </div>
+          <div class="col-lg-6 about-right">
+            <h3
+              class="about-heading"
+              data-aos="fade-in"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+            >
+              <em
+                >"Whoever said that words have more power than a sword, forgot
+                the magic a paint brush can create."</em
+              >
+            </h3>
+            <p
+              class="about-text text-muted"
+              data-aos="fade"
+              data-aos-duration="300"
+              data-aos-offset="-200"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+            >
+              Art is not a piece of work, but a tsunami of emotions presented in
+              the most calm way. Kalakriti is a society that brings different
+              arts from different background and put them on a single canvas.
+              <br />
+              We believe in spreading our knowledge and encouraging people of
+              all ages to create different art forms, be it a digital poster or
+              a canvas painting. Creativity, Joy and Expression are words that
+              are synonymous with
+              <strong> Kalakriti, the Official Creative Arts Society </strong
+              >of<strong>
+                Delhi Technological University (formerly Delhi College of
+                Engineering).</strong
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section
+      id="testimonials"
+      data-aos="flip-left"
+      data-aos-duration="300"
+      data-aos-offset="-400"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      <div class="container-fluid">
+        <h3>TESTIMONIALS</h3>
+        <div id="testimonials-car" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li
+              data-target="#testimonials-car"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#testimonials-car" data-slide-to="1"></li>
+            <li data-target="#testimonials-car" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active testimonial-carousel">
+              <h5>HMMMM</h5>
+              <p>Name</p>
+              <img src="assets/imgs/test1.jpg" alt="" class="test-img" />
+            </div>
+            <div class="carousel-item testimonial-carousel">
+              <h5>ACHHAA</h5>
+              <p>Name</p>
+              <img src="assets/imgs/test1.jpg" alt="" class="test-img" />
+            </div>
+            <div class="carousel-item testimonial-carousel">
+              <h5>THEEK HAI</h5>
+              <p>Name</p>
+              <img src="assets/imgs/test1.jpg" alt="" class="test-img" />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#testimonials-car"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#testimonials-car"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Certificate -->
+
+    <!-- Timer -->
+    <section
+      id="timer"
+      data-aos="flip-right"
+      data-aos-duration="300"
+      data-aos-offset="-400"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      <h2>COMING SOON</h2>
+      <p>We are ready with another webinar... Register Asap!!</p>
+      <div class="container timer">
+        <div class="days-c">
+          <p id="days" class="counter">0</p>
+          <span>Days</span>
+        </div>
+
+        <div class="hours-c">
+          <p id="hours" class="counter">0</p>
+          <span>Hours</span>
+        </div>
+
+        <div class="mins-c">
+          <p id="mins" class="counter">0</p>
+          <span>Mins</span>
+        </div>
+
+        <div class="seconds-c">
+          <p id="seconds" class="counter">0</p>
+          <span>Seconds</span>
+        </div>
+      </div>
+      <a href="Webinar.html"
+        ><button class="btn btn-lg btn-danger mt-5">REGISTER NOW !!!</button></a
+      >
+    </section>
+    <!-- Contacts -->
+    <section
+      id="contact-us"
+      data-aos="fade-in"
+      data-aos-duration="300"
+      data-aos-offset="-400"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center"
+    >
+      <h3>CONTACT US</h3>
+
+      <div class="row">
+        <div class="col-3 contact">
+          <a
+            href="https://www.facebook.com/KalakritiTheCreativeArtsSociety/"
+            target="_blank"
+            ><i class="fab fa-facebook fa-3x"></i
+          ></a>
+        </div>
+        <div class="col-3 contact">
+          <a href="https://www.instagram.com/kalakriti_dtu/" target="_blank"
+            ><i class="fab fa-instagram fa-3x"></i
+          ></a>
+        </div>
+        <div class="col-3 contact">
+          <a
+            href="https://www.linkedin.com/school/kalakritidtu/"
+            target="_blank"
+            ><i class="fab fa-linkedin fa-3x"></i
+          ></a>
+        </div>
+        <div class="col-3 contact">
+          <a href="mailto:outreach@kalakritidtu.com"
+            ><i class="far fa-envelope fa-3x"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-info">
+              <!-- <img src="assets/imgs/" alt="TheEvent">
+              <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p> -->
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="#">Initiatives</a>
+                </li>
+                <li><i class="fa fa-angle-right"></i> <a href="#">Team</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                Delhi Technological University<br />
+                Shahbad Daulatpur, Main Bawana Road, Delhi<br />
+                Pincode -110042<br />
+                <!-- <strong>Phone:</strong> +91 9013803905<br> -->
+                <strong>Email : </strong>outreach@kalakritidtu.com<br />
+              </p>
+
+              <div class="social-links">
+                <a
+                  href="https://www.facebook.com/KalakritiTheCreativeArtsSociety/"
+                  target="new window"
+                  class="facebook"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/kalakriti_dtu/"
+                  target="new window"
+                  class="instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.linkedin.com/school/kalakritidtu/"
+                  target="new window"
+                  class="linkedin"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          <strong>BY KALAKRITI DTU</strong>
+        </div>
+      </div>
+    </footer>
+    <!-- #footer -->
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"
+      integrity="sha384-3Nqiqht3ZZEO8FKj7GR1upiI385J92VwWNLj+FqHxtLYxd9l+WYpeqSOrLh0T12c"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/JS/ParticleJs/particles.js"></script>
+    <script src="assets/JS/ParticleJs/app.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-growl/1.0.6/bootstrap-growl.min.js"
+      integrity="sha512-KgI7fghDFHr4D+sJIDQGZLpNCmDmlQHuISbPeIwHd7iJCU20FtL5+l7mD2aMr6NUVnaDua1lEg4tTOVe/XiYBw=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+    <!-- AOS DATA -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
