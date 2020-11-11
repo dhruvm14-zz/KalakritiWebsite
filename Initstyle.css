@@ -26,7 +26,7 @@ h2,h3,h4,h5 {
 
 #abhivyakti{
     
-    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+    
     padding: 5% 1%;
 }
 #spinback{
@@ -43,6 +43,7 @@ h2,h3,h4,h5 {
     padding: 0;
     margin: 0;
 }
+
 .cardBody .btn{
     
     position: relative;
@@ -54,6 +55,9 @@ h2,h3,h4,h5 {
     -webkit-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.75);
 box-shadow: 0px 0px 21px 2px rgba(0,0,0,0.75);
+}
+.abhiButton{
+    text-align: center;
 }
 /* -----------------------------------CONTACT US -------------------------------------*/
 #contact-us h4{

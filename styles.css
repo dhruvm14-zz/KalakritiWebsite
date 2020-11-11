@@ -215,7 +215,7 @@ section{
 /*----------------------------------------- TESTIMONIALS--------------------------------------------- */
 #testimonials {
   padding-top: 5%;
-  background-color: #db7093;
+  background-color: #f7f5d9;
 }
 .test-img{
     width: 80px;
@@ -225,7 +225,9 @@ section{
 .testimonial-carousel {
   padding: 7% 15%;
 }
-
+h5{
+  font-size: 2rem;
+}
 /*---------------------------------------------- TIMER -------------------------------------------------*/
 
 #timer {
@@ -259,6 +261,7 @@ section{
 }
 #contact-us h3,h4{
     margin-bottom:2rem ;
+    font-size: 2rem;
 }
 .contact :hover{
     color: white; 
