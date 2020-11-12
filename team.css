@@ -15,7 +15,6 @@ background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, F
   margin: 0;
 }
 
-
 .team{
     color: whitesmoke;
     display: flex;
@@ -35,6 +34,18 @@ background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, F
 
 .team-member{
   padding-bottom: 80px;
+}
+.teamInfo{
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+}
+.team-advisory{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 .vp-row{
   width: 100%;

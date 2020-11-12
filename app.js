@@ -62,5 +62,5 @@ $(document).ready(function () {
 
 $(".img-link").click(function(){
   const val = $(this).find(".pic").find('img').attr('src');
-  $(".modal-body").find('img').attr('src',val);
+  $(".modal-content").find('img').attr('src',val);
 })
