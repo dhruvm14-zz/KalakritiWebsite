@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@font-face {
+  font-family: 'centuryGothic';
+  src: url(assets/CenturyGothic\ -\ Century\ Gothic\ -\ Regular.ttf);
+}
+@font-face {
+  font-family: 'gotham';
+  src: url(assets/Gotham-Black.ttf);
+}
 html,
 body {
   width: auto !important;
   overflow-x: hidden !important;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'centuryGothic';
 }
 div {
     -webkit-background-size: contain no-repeat;
@@ -11,14 +19,19 @@ div {
     -o-background-size: contain no-repeat;
     background-size: contain no-repeat;
     }
-h2,h3{
+h1,h2,h3,h4,h5,h6{
+  font-family: 'gotham';
+}
+h2{
   font-weight: 600;
   font-size: 3rem;
 }
-
+h3{
+  font-size: 2rem;
+}
 h4,h5 {
-    font-weight: 600;
-    font-size: 2.5rem;
+    font-weight: 200;
+    font-size: 2rem;
   }
 a,
 a:hover {
@@ -200,7 +213,11 @@ section{
 }
 .about-right{
     padding: 5% 7%;
-}
+    background-image: url("assets/imgs/aboutback.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
 .about-heading{
     padding: 5% 10%;
 }
@@ -215,7 +232,8 @@ section{
 /*----------------------------------------- TESTIMONIALS--------------------------------------------- */
 #testimonials {
   padding-top: 5%;
-  background-color: #f7f5d9;
+  background-color: #711abc;
+  color: white;
 }
 .test-img{
     width: 80px;
@@ -226,7 +244,11 @@ section{
   padding: 7% 15%;
 }
 h5{
-  font-size: 2rem;
+  font-size: 1.5rem;
+
+}
+.test{
+  font-size: 1.3rem;
 }
 /*---------------------------------------------- TIMER -------------------------------------------------*/
 
@@ -236,9 +258,9 @@ h5{
   background-color: #ff9a8b;
   background-image: linear-gradient(
     90deg,
-    #ff9a8b 0%,
+    #ff346f 0%,
     #ff6a88 55%,
-    #ff99ac 100%
+    #ff346f 100%
   );
   font-size: 1.5rem;
 }
@@ -257,7 +279,11 @@ h5{
 /* --------------------------------------------CONTACTS -----------------------------------------------*/
 #contact-us{
     padding: 3% 10%;
-    background: linear-gradient(to right, #e6ffff 0%,rgb(144, 215, 248) 72%);
+    background-color: #08c7bd;
+}
+#contact-us .row{
+  width: 60%;
+  margin: auto;
 }
 #contact-us h3,h4{
     margin-bottom:2rem ;
@@ -497,13 +523,22 @@ width: 100%;
 
     height: auto;
   }
-  
+  #contact-us .row{
+    width: 80%;
+    margin: auto;
+  }
   .features{
     padding: 5% 14%;
   }
-  h2,h3{
+  .test{
+    font-size: 0.7rem;
+  }
+  h2{
     font-weight: 600;
     font-size: 2rem;
+  }
+  h3{
+    font-size: 1.5rem;
   }
   .card-body{
     padding:0% 5%;

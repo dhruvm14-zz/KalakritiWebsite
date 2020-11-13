@@ -37,6 +37,8 @@ background: black;
 /* FIGURES */
 #figures{
     padding: 5% 2%;
+    color: white;
+    background-color: #ff346f;
 }
 
 /* YT */
@@ -46,7 +48,7 @@ background: black;
 }
 iframe{
     border: none;
-    width:900px; 
+    width:70%; 
     height:500px;
 }
 #yt h2{
@@ -57,7 +59,7 @@ iframe{
 /* GALLERY */
 #gallery{
     padding: 5% 4%;
-    background-color: black;
+    background-color: #191919;
 }
 #gallery ul{
     display: flex;
@@ -84,7 +86,7 @@ iframe{
     flex-wrap: wrap;
     overflow: auto;
     height: 600px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 .pic{
     position: relative;
@@ -129,7 +131,7 @@ iframe{
     }
     iframe{
         border: none;
-        width:700px; 
+        width:70%; 
         height:400px;
     }
   }
@@ -181,6 +183,7 @@ iframe{
     }
     #yt h2{
         
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
   }
+    
