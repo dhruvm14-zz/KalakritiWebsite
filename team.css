@@ -149,6 +149,7 @@ h2{
 .card .image img {
     width: 100%;
     transition: .5s;
+    overflow: hidden;
 }
 .card:hover .image img {
     opacity: .5;
@@ -158,7 +159,7 @@ h2{
     position: absolute;
     top: 0;
     left: 0;
-    width: 70%;/*100%*/
+    width: 55%;/*100%*/
     height: 100%;
     background: #ff346f;
     transition: .5s;

@@ -1,7 +1,7 @@
 
 #title{
     position: relative;
-    background-image: url("assets/imgs/Abhi-back1.jpg");
+    background-image: url("assets/imgs/Abhi-back.jpg");
     /* background-attachment: fixed; */
     color: black;
     height: 100vh;
@@ -160,6 +160,9 @@ iframe{
     #yt h2{
         
         letter-spacing: 8px;
+    }
+    #title{
+        background-image: url("assets/imgs/Abhi-mobile.jpg");
     }
   }
   @media only screen and (max-width: 350px) {

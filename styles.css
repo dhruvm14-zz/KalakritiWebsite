@@ -196,7 +196,7 @@ h5{
 
 #timer {
 
-  padding: 7% 10%;
+  padding: 3% 10%;
   background-color: #ff9a8b;
   background-image: linear-gradient(
     90deg,
@@ -206,10 +206,14 @@ h5{
   );
   font-size: 1.5rem;
 }
+#timer h2{
+  font-size: 4rem;
+}
 .timer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  width: 60%;
 }
 .counter {
   font-weight: 700;
@@ -502,8 +506,19 @@ width: 100%;
     #testimonials{
       height: 350px;
     }
-}
   
+}
+@media only screen and (max-width: 700px){
+  .card{
+    height: 400px;
+  }
+  .card-img-top{
+    height: 150px;
+  }
+  #timer h2{
+    font-size: 2.2rem;
+  }
+}
 @media only screen and (max-width: 1000px) and (min-width: 400px) {
   .header img{
     padding-top: 50px;

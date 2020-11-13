@@ -1,0 +1,263 @@
+h1{
+  font-size: 6rem;
+  font-weight: 800;
+}
+/*-------------------------------------- TITLE ---------------------------------------*/
+#spinbackTitle{
+  padding: 10%;
+  padding-bottom: 0;
+  background-color: black;
+  color: white;
+}
+iframe{
+  border: none;
+  width:900px; 
+  height:500px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/*------------------------------------- ABOUT SPINBACK -------------------------------- */
+#aboutSpinback{
+  padding: 5% 7%;
+  background-color: #ff346f;
+  color: white;
+}
+
+.spinbackWinners{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+
+}
+#spinbackWin{
+  background: #191919;
+}
+#spinbackWin h2{
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 5%;
+}
+.container-box{
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.box {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 300px;
+    height: 400px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0,0,0,.5);
+  }
+
+
+.box .imgBx {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .box .imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.5s;
+  }
+  
+  .box:hover .imgBx img {
+    opacity: 0;
+  }
+  .winner-btn{
+      position: absolute;
+      bottom: 20px;
+      left: 10%;
+      width: 80%;
+      opacity: 0;
+  }
+  .box .content {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 10%;
+    width: 80%;
+    height: 60px;
+    background: black;
+    transition: 0.5s;
+    overflow: hidden;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  
+  .box:hover .content {
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .box .content h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .box .content p {
+    margin: 10px 0 0;
+    padding: 0;
+    opacity: 0;
+    line-height: 1.2em;
+    transition: 0.5s;
+    text-align: justify;
+  }
+  
+  .box:hover .content p {
+    opacity: 1;
+    transition-delay: 0.5s;
+  }
+  .box:hover .winner-btn {
+    opacity: 1;
+    transition-delay: 1s;
+  }
+  /*------------------------------------------- SPONSOR ---------------------------------------*/
+  #sponsors{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #711ABC;
+    color: white;
+  }
+  .sponsorImg{
+    padding: 50px;
+    width: 300px;
+  }
+  .sponsorBox{
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    width: 200px;
+    height: 200px;
+  }
+/*---------------------------------------------- JUDGE ----------------------------------------*/
+#judge{
+  padding: 5% 7%;
+  color: white;
+  background-color: #ff346f;
+}
+.judge{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.card {
+  width: 332px;
+  height: 450px;
+  background: #000;
+  overflow: hidden;
+  margin: 20px;
+}
+.card .image {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.card .image img {
+  width: auto;
+  height: 100%;
+  margin: auto;
+  transition: .5s;
+  object-fit: cover;
+}
+.card:hover .image img {
+  opacity: .5;
+  transform: translateX(30%);/*100%*/
+}
+.card .details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;/*100%*/
+  height: 100%;
+  background: #ffc107;
+  transition: .5s;
+  transform-origin: left;
+  transform: perspective(2000px) rotateY(-90deg);
+}
+.card:hover .details {
+  transform: perspective(2000px) rotateY(0deg);
+}
+.card .details .center {
+  padding: 20px;
+  text-align: center;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.card .details .center h1 {
+  margin: 0;
+  padding: 0;
+  color: #ff3636;
+  line-height: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.card .details .center h1 span {
+  font-size: 14px;
+  color: #262626;
+}
+.card .details .center p {
+  margin: 10px 0;
+  padding: 0;
+  color: #262626;
+}
+.card .details .center ul {
+  margin: 10px auto 0;
+  padding: 0;
+  display: table;
+}
+.card .details .center ul li {
+  list-style: none;
+  margin: 0 5px;
+  float: left;
+}
+.card .details .center ul li a {
+  display: block;
+  background: #262626;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  transform: .5s;
+}
+.card .details .center ul li a:hover {
+  background: #ff3636;
+}
+@media only screen and (max-width: 800px){
+  .sponsorImg{
+    padding: 10px;
+    width: 100px;
+  }
+  .sponsorBox{
+    top: 40px;
+    width: 100px;
+    height: 100px;
+  }
+}

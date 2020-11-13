@@ -16,7 +16,7 @@ if ($(".navbar").length > 0) {
 
 //TIMER LOGIC
 $(document).ready(function () {
-const webinar = "20 Nov 2020";
+const webinar = "21 Nov 2020";
 const daysEl = document.getElementById("days");
 const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
