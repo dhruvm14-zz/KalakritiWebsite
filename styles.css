@@ -175,6 +175,7 @@ section{
   padding-top: 5%;
   background-color: #711abc;
   color: white;
+  height: 500px;
 }
 .test-img{
     width: 80px;
@@ -497,6 +498,9 @@ width: 100%;
     }
     .navbar-caption-wrap {
       display: none;
+    }
+    #testimonials{
+      height: 350px;
     }
 }
   

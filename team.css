@@ -223,6 +223,15 @@ h2{
   align-items: center;
   justify-content: center;
 }
+#webDev ,#webDesign,#webContent,#devTitle{
+  background-color: #191919;
+  color: white;
+  margin: 0;
+}
+#webDev ,#webDesign,#webContent,#devTitle h1{
+ padding-bottom: 20px;
+  margin: 0;
+}
   @media only screen and (max-width: 800px) {
     #team_title h1{
       font-size: 10rem;
