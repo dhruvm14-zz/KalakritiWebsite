@@ -89,17 +89,19 @@ section{
 #particle{
   background: black;
   height: 325px;
-  padding-top: 25px;
+  padding-top: 35px;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: white;
 }
 #particle img{
-  height: 300px;
+  height: 200px;
   position: relative;
   right: 5px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
+
 /*-------------------------------------------- TITLE ---------------------------------------------------*/
   
 .header img{
