@@ -11,8 +11,8 @@ h1{
 }
 iframe{
   border: none;
-  width:100%;
-  height:calc(100% - 75px);
+  width:900px; 
+  height:507px;
   margin-bottom: 0;
   padding-bottom: 0;
 }
@@ -258,18 +258,20 @@ iframe{
 .card .details .center ul li a:hover {
   background: #ff3636;
 }
-/* @media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px){
   iframe{
-    width: 700px;
+
+    width:700px; 
+    height:394px;
+   
   }
 }
 @media only screen and (max-width: 1000px){
   iframe{
-    width: 500px;
-    height: auto;
-    overflow: hidden;
+   width: 500px;
+   height: 282px;
   }
-} */
+}
 @media only screen and (max-width: 800px){
   .sponsorImg{
     padding: 10px;
@@ -284,6 +286,10 @@ iframe{
     font-size: 3rem;
     padding-top: 35px;
   }
+  iframe{
+    width: 300px;
+    height: 169px;
+   }
 }
 @media only screen and (max-width: 600px){
   .spinbackHeading{
@@ -293,10 +299,10 @@ iframe{
   .aboutText{
     font-size: 0.8rem;
   }
-  /* iframe{
-    width: 300px;
-
-  } */
+  iframe{
+    width: 180px;
+    height: 101px;
+   }
   #spinbackWin h2{
     font-size: 2rem;
   }
