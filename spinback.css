@@ -11,19 +11,24 @@ h1{
 }
 iframe{
   border: none;
-  width:900px; 
-  height:500px;
+  width:100%;
+  height:calc(100% - 75px);
   margin-bottom: 0;
   padding-bottom: 0;
 }
-
+.spinbackHeading{
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
 /*------------------------------------- ABOUT SPINBACK -------------------------------- */
 #aboutSpinback{
   padding: 5% 7%;
   background-color: #ff346f;
   color: white;
 }
-
+#spinbackWin h2{
+  font-size: 4rem;
+}
 .spinbackWinners{
   margin: 0;
   padding: 0;
@@ -134,12 +139,15 @@ iframe{
   }
   /*------------------------------------------- SPONSOR ---------------------------------------*/
   #sponsors{
+    background-color: #711ABC;
+    color: white;
+  }
+  .sponsors{
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    background-color: #711ABC;
-    color: white;
+    
   }
   .sponsorImg{
     padding: 50px;
@@ -154,7 +162,7 @@ iframe{
   }
 /*---------------------------------------------- JUDGE ----------------------------------------*/
 #judge{
-  padding: 5% 7%;
+  padding: 5% 0;
   color: white;
   background-color: #ff346f;
 }
@@ -194,7 +202,7 @@ iframe{
   left: 0;
   width: 70%;/*100%*/
   height: 100%;
-  background: #ffc107;
+  background: #711abc;
   transition: .5s;
   transform-origin: left;
   transform: perspective(2000px) rotateY(-90deg);
@@ -250,6 +258,18 @@ iframe{
 .card .details .center ul li a:hover {
   background: #ff3636;
 }
+/* @media only screen and (max-width: 1200px){
+  iframe{
+    width: 700px;
+  }
+}
+@media only screen and (max-width: 1000px){
+  iframe{
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+  }
+} */
 @media only screen and (max-width: 800px){
   .sponsorImg{
     padding: 10px;
@@ -259,5 +279,25 @@ iframe{
     top: 40px;
     width: 100px;
     height: 100px;
+  }
+  .spinbackHeading{
+    font-size: 3rem;
+    padding-top: 35px;
+  }
+}
+@media only screen and (max-width: 600px){
+  .spinbackHeading{
+    font-size: 2.5rem;
+    padding-top: 35px;
+  }
+  .aboutText{
+    font-size: 0.8rem;
+  }
+  /* iframe{
+    width: 300px;
+
+  } */
+  #spinbackWin h2{
+    font-size: 2rem;
   }
 }
