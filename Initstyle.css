@@ -8,7 +8,6 @@ p{
 #title{
     position: relative;
     background-image: url("assets/imgs/init_back.jpg");
-    /* background-attachment: fixed; */
     color: black;
     height: 100vh;
     padding: 20% 7%;
@@ -35,9 +34,6 @@ p{
 #spinback{
     padding: 4% 2%;
     color: whitesmoke;
-    /* background-color: #0093E9;
-    background-image: linear-gradient(51deg, #0093E9 0%, #80D0C7 100%);
-     */
      background-color: black;
 }
 #volunteering{

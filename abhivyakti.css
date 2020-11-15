@@ -2,7 +2,6 @@
 #title{
     position: relative;
     background-image: url("assets/imgs/Abhi-back.jpg");
-    /* background-attachment: fixed; */
     color: black;
     height: 100vh;
     padding: 20% 7%;
@@ -17,8 +16,6 @@
     left: 80;
     padding: 5% 7%;
     overflow: hidden;
-    
-    /* opacity: 0.5; */
     z-index: 1;
 }
 .about-left img{
