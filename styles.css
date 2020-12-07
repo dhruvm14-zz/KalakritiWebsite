@@ -41,11 +41,6 @@ a:hover {
 section{
     text-align: center;
 }
-#particles-js{
-  
-  height: 100%;
-  background-color: rgb(55, 0, 255);
-}
 /*------------------------------------------- Navbar ------------------------------------------*/
 .title {
   margin: 0;

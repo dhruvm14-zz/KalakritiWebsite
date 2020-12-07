@@ -218,6 +218,74 @@ h2{
 .card .details .center ul li a:hover {
     background: #ff3636;
 }
+
+/* --------CO HEADS------ */
+
+.coHeads h2{
+  font-size: 2rem;
+}
+
+.box2{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5%;
+  flex-wrap: wrap;
+  color: black;
+}
+.card4{
+  position: relative;
+  height: 80px;
+  width: 300px;
+  background-color: transparent;
+  transition: 0.5s;
+}
+.cardInner4{
+  position: relative;
+  transition: transform 0.8s;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+}
+.cardBack4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color:black;
+  text-align: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  transform: rotateY(180deg);
+  border: 2px solid black;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.cardFront4{
+  position: absolute;
+  top: 0;
+  color: #08c7bd;
+  left: 0;
+  height: 100%;
+  border: 2px solid black;
+  text-align: center;
+  background-color: black;
+  width: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.cardFront4 p{
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.cardBack4 p{
+  padding-top: 16px;
+}
+.card4:hover .cardInner4{
+  transform: rotateY(-180deg);
+}
+
 /*-------------------------------------MEET THE DEV-------------------------------- */
 .team-dev{
   display: flex;

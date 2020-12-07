@@ -64,3 +64,8 @@ $(".img-link").click(function(){
   const val = $(this).find(".pic").find('img').attr('src');
   $(".modal-content").find('img').attr('src',val);
 })
+
+// ORIENTATION
+function orientAlert() {
+  alert("Link will be available soon. Please fill the form for more updates.");
+}

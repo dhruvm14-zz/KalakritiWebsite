@@ -1,0 +1,168 @@
+
+.body{
+    background-color: black;
+}
+
+.title{
+  margin-top: 4%;
+  padding: 7% 7%;
+  text-align: center;
+  background-color:#08c7bd;
+}
+.title h1{
+  font-size: 100px;
+}
+.recruitment_video{
+    background-image: url("assets/imgs/background5.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:700px;
+} 
+/* why to join */
+.hover {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 50%;
+  }
+  
+  .hover-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 90;
+    transition: all 0.4s;
+  }
+  
+  .hover img {
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    transition: all 0.3s;
+  }
+  
+  .hover-content {
+    position: relative;
+    z-index: 99;
+  }
+  
+  
+  
+ 
+  .hover-3::after {
+    content: '';
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    border: 1px solid #fff;
+    position: absolute;
+    top: 1.5rem;
+    left: 1.5rem;
+    z-index: 90;
+    transition: all 0.3s;
+    transform: scale(1.1);
+    opacity: 0;
+    display: block;
+    opacity: 0;
+  }
+  
+  .hover-3-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    z-index: 99;
+  }
+  
+  .hover-3-description {
+    opacity: 0;
+    transform: scale(1.3);
+    transition: all 0.3s;
+  }
+  
+  .hover-3 img {
+    width: 110%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hover-3 .hover-overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .hover-3:hover img {
+    width: 100%;
+  }
+  
+  .hover-3:hover::after {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .hover-3:hover .hover-3-description {
+    opacity: 1;
+    transform: none;
+  }
+  
+  .hover-3:hover .hover-overlay {
+    background: rgba(0, 0, 0, 0.8);
+  }
+ 
+  h3{
+      color: #fff;
+  }
+  .py-5{
+      background-color: black;
+  }
+  .heading_join{
+      color: #fff;
+      background-size: cover;
+      margin-right: 0%;
+  }
+  .join_heading{
+      text-align: center;
+      padding: 3%;
+  }
+
+.form{
+  padding-top: 5%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 1100px){
+  .title h1{
+    font-size: 75px;
+  }
+}
+@media only screen and (max-width: 800px){
+  .title h1{
+    font-size: 50px;
+  }
+  .title{
+    margin-top: 7%;
+    padding: 9% 9%;
+    text-align: center;
+    background-color:#08c7bd;
+  }
+}
+@media only screen and (max-width: 500px){
+  .title h1{
+    font-size: 25px;
+  }
+  .title{
+    margin-top: 11%;
+    padding: 9% 9%;
+    
+  }
+}
