@@ -835,9 +835,9 @@ h4 {
     flex: 1;
   }
   .box-img > img {
-    width: 70vw;
-    margin: 4vw 5vw;
+    width: 75vw;
     border-radius: 20px;
+    margin: 0vw 0vw;
   }
   .box-text {
     flex: 1;
