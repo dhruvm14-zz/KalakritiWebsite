@@ -3,9 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Kalakriti, is the Official Creative Arts Society of Delhi Technological University which aims to believe in spreading knowledge and encouraging people of all ages to create different art forms.">
-    <meta name="keywords" content="ART,art,society,music,music production,creative,artist,Delhi, art fest,fest,dtu">
-    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <meta
+      name="description"
+      content="Kalakriti, is the Official Creative Arts Society of Delhi Technological University which aims to believe in spreading knowledge and encouraging people of all ages to create different art forms."
+    />
+    <meta
+      name="keywords"
+      content="ART,art,society,music,music production,creative,artist,Delhi, art fest,fest,dtu"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/imgs/favicon.ico"
+      type="image/x-icon"
+    />
     <title>Kalakriti - The Creative Arts Society of DTU</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
@@ -30,72 +40,42 @@
   </head>
   <body>
     <!-- Title -->
-
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-      <a class="navbar-brand" href="">
-        <img src="assets/imgs/logo.png" alt="Kalakriti Logo" class="logo-img" />
-        <span class="navbar-caption-wrap">
-          K A L A K R I T I <br />
-          <span class="sub-caption">The Creative Arts Society of DTU </span>
-        </span>
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mr-auto">
-          <li class="nav-item center">
-            <a class="nav-link" href="index.html">HOME</a>
-          </li>
-          <li class="nav-item center">
-            <a class="nav-link" href="Initiative.html">INITIATIVES</a>
-          </li>
-          <li class="nav-item center">
-            <a class="nav-link" href="abhivyakti.html">ABHIVYAKTI</a>
-          </li>
-          <li class="nav-item center">
-            <a class="nav-link" href="spinback.html">SPINBACK</a>
-          </li>
-          <li class="nav-item center">
-            <a class="nav-link" href="team.html">TEAM</a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.facebook.com/KalakritiTheCreativeArtsSociety/"
-              target="_blank"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.instagram.com/kalakriti_dtu/"
-              target="_blank"
-              ><i class="fab fa-instagram"></i
-            ></a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link"
-              href="https://www.linkedin.com/school/kalakritidtu/"
-              target="_blank"
-              ><i class="fab fa-linkedin"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container-fluid nav-container">
+      <nav class="navbar navbar-expand">
+        <a class="navbar-brand" href="">
+          <img
+            src="./assets/imgs/Logo.png"
+            alt="Kalakriti Logo"
+            class="logo-img"
+          />
+        </a>
+        <div class="nav navbar-nav ml-auto nav-links">
+          <ul class="navbar-nav">
+            <li class="nav-item center">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item center">
+              <a class="nav-link" href="abhivyakti.html">ABHIVYAKTI</a>
+            </li>
+            <li class="nav-item center">
+              <a class="nav-link" href="spinback.html">SPINBACK</a>
+            </li>
+            <li class="nav-item center">
+              <a class="nav-link" href="team.html">MEET THE TEAM</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="sidebar" id="sidebar">
+      <div class="toggle" onclick="toggle_div()"></div>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="abhivyakti.html">ABHIVYAKTI</a></li>
+        <li><a href="spinback.html">SPINBACK</a></li>
+        <li><a href="team.html">MEET THE TEAM!</a></li>
+      </ul>
+    </div>
 
     <section id="title">
       <div class="title"></div>
@@ -294,21 +274,25 @@
             ><div class="pic art">
               <img src="assets/imgs/art6.jpg" alt="" /></div
           ></a>
-        
         </div>
       </div>
     </section>
     <!-- MODAL -->
     <!-- Modal -->
-    <div class="modal fade"id="picModal">
+    <div class="modal fade" id="picModal">
       <div class="modal-dialog">
         <div class="modal-content">
-            <img src="assets/imgs/Card1.jpeg" alt="" class="img-fluid" style="width: 100%"/>
+          <img
+            src="assets/imgs/Card1.jpeg"
+            alt=""
+            class="img-fluid"
+            style="width: 100%"
+          />
         </div>
       </div>
     </div>
     <!-- Contacts -->
-     <section
+    <section
       id="contact-us"
       data-aos="fade-in"
       data-aos-duration="300"
@@ -361,17 +345,21 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
                 <li>
-                  <i class="fa fa-angle-right"></i> <a href="Initiative.html">Initiatives</a>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="index.html">Home</a>
                 </li>
                 <li>
-                  <i class="fa fa-angle-right"></i> <a href="abhivyakti.html">Abhivyakti</a>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="abhivyakti.html">Abhivyakti</a>
                 </li>
                 <li>
-                  <i class="fa fa-angle-right"></i> <a href="spinback.html">Spinback</a>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="spinback.html">Spinback</a>
                 </li>
-                <li><i class="fa fa-angle-right"></i> <a href="team.html">Team</a></li>
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="team.html">Team</a>
+                </li>
               </ul>
             </div>
 
@@ -412,7 +400,11 @@
 
       <div class="container">
         <div class="copyright">
-        <a href="meetDev.html" style="color: rgb(76, 76, 238);text-decoration: underline;" ><strong>MEET THE DEVELOPERS</strong></a><br>
+          <a
+            href="meetDev.html"
+            style="color: rgb(76, 76, 238); text-decoration: underline"
+            ><strong>MEET THE DEVELOPERS</strong></a
+          ><br />
           <strong>BY KALAKRITI DTU</strong>
         </div>
       </div>
@@ -469,7 +461,6 @@
       };
 
       $(".count").countTo();
-      
     </script>
     <!-- AOS DATA -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

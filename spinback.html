@@ -3,9 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Kalakriti, is the Official Creative Arts Society of Delhi Technological University which aims to believe in spreading knowledge and encouraging people of all ages to create different art forms.">
-    <meta name="keywords" content="ART,art,society,music,music production,creative,artist,Delhi, art fest,fest,dtu">
-    <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
+    <meta
+      name="description"
+      content="Kalakriti, is the Official Creative Arts Society of Delhi Technological University which aims to believe in spreading knowledge and encouraging people of all ages to create different art forms."
+    />
+    <meta
+      name="keywords"
+      content="ART,art,society,music,music production,creative,artist,Delhi, art fest,fest,dtu"
+    />
+    <link
+      rel="shortcut icon"
+      href="assets/imgs/favicon.ico"
+      type="image/x-icon"
+    />
     <title>Kalakriti - The Creative Arts Society of DTU</title>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
@@ -30,37 +40,19 @@
   </head>
   <body>
     <!-- Title -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container-fluid nav-container">
+      <nav class="navbar navbar-expand">
         <a class="navbar-brand" href="">
           <img
-            src="assets/imgs/logo.png"
+            src="./assets/imgs/Logo.png"
             alt="Kalakriti Logo"
             class="logo-img"
           />
-          <span class="navbar-caption-wrap">
-            K A L A K R I T I <br />
-            <span class="sub-caption">The Creative Arts Society of DTU </span>
-          </span>
         </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto mr-auto">
+        <div class="nav navbar-nav ml-auto nav-links">
+          <ul class="navbar-nav">
             <li class="nav-item center">
               <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item center">
-              <a class="nav-link" href="Initiative.html">INITIATIVES</a>
             </li>
             <li class="nav-item center">
               <a class="nav-link" href="abhivyakti.html">ABHIVYAKTI</a>
@@ -69,37 +61,20 @@
               <a class="nav-link" href="spinback.html">SPINBACK</a>
             </li>
             <li class="nav-item center">
-              <a class="nav-link" href="team.html">TEAM</a>
-            </li>
-          </ul>
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://www.facebook.com/KalakritiTheCreativeArtsSociety/"
-                target="_blank"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://www.instagram.com/kalakriti_dtu/"
-                target="_blank"
-                ><i class="fab fa-instagram"></i
-              ></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/school/kalakritidtu/"
-                target="_blank"
-                ><i class="fab fa-linkedin"></i
-              ></a>
+              <a class="nav-link" href="team.html">MEET THE TEAM</a>
             </li>
           </ul>
         </div>
       </nav>
+    </div>
+    <div class="sidebar" id="sidebar">
+      <div class="toggle" onclick="toggle_div()"></div>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="abhivyakti.html">ABHIVYAKTI</a></li>
+        <li><a href="spinback.html">SPINBACK</a></li>
+        <li><a href="team.html">MEET THE TEAM!</a></li>
+      </ul>
     </div>
 
     <section id="spinbackTitle">
@@ -111,17 +86,21 @@
     <section id="aboutSpinback">
       <div class="container">
         <h2>ABOUT</h2>
-        <p class="aboutText" style="text-align: justify;">
-          SpinBack is an online music production competition started by Kalakriti-DTU in the year 2020. It provides a stage for upcoming music producers in India to 
-          showcase their talent among other artists. The goal of SpinBack is to find an outstanding, talented music producer- the “best” which is to be heard.
-          It is an initiative started by a bunch of college students who are from Delhi Technological University’s art society Kalakriti.
-          It offers great prizes, recognition, exposure, and the chance to be heard by a group of judges consisting of highly recognized music producers and 
-          professionals.
+        <p class="aboutText" style="text-align: justify">
+          SpinBack is an online music production competition started by
+          Kalakriti-DTU in the year 2020. It provides a stage for upcoming music
+          producers in India to showcase their talent among other artists. The
+          goal of SpinBack is to find an outstanding, talented music producer-
+          the “best” which is to be heard. It is an initiative started by a
+          bunch of college students who are from Delhi Technological
+          University’s art society Kalakriti. It offers great prizes,
+          recognition, exposure, and the chance to be heard by a group of judges
+          consisting of highly recognized music producers and professionals.
         </p>
       </div>
     </section>
     <section id="spinbackWin">
-      <h2 style="padding-top: 30px;">SPINBACK WINNERS</h2>
+      <h2 style="padding-top: 30px">SPINBACK WINNERS</h2>
       <div class="spinbackWinners">
         <div class="container-box">
           <div class="box">
@@ -131,9 +110,15 @@
             <div class="content">
               <h3>SECOND</h3>
               <p>
-                RONINCLOUD is a 19 year old producer born and raised in Pune, Maharashtra. Starting his music journey in late 2018, he began experimenting with lofi hiphop. While he is known to the world for his chill beats and soothing sounds, he has shown his versatility in different music genres on countless occasions.
+                RONINCLOUD is a 19 year old producer born and raised in Pune,
+                Maharashtra. Starting his music journey in late 2018, he began
+                experimenting with lofi hiphop. While he is known to the world
+                for his chill beats and soothing sounds, he has shown his
+                versatility in different music genres on countless occasions.
               </p>
-              <a href="https://www.instagram.com/tv/CBxR4X0JJWw/" target="_blank"
+              <a
+                href="https://www.instagram.com/tv/CBxR4X0JJWw/"
+                target="_blank"
                 ><button class="btn btn-lg btn-outline-light winner-btn">
                   LISTEN ENTRY
                 </button></a
@@ -147,15 +132,21 @@
             <div class="content">
               <h3>FIRST</h3>
               <p>
-                Mohammed Saad aka OKVRU is 19 years old producer hailing from Karnataka. With no background knowledge on music , Saad self taught himself producing after getting inspired from great artists like Martin Garrix , Illenium and Skrillex. Trap and Future bass define his sounds.              </p>
-              <a href="https://www.instagram.com/tv/CBqn9z8p_Me/" target="_blank"
+                Mohammed Saad aka OKVRU is 19 years old producer hailing from
+                Karnataka. With no background knowledge on music , Saad self
+                taught himself producing after getting inspired from great
+                artists like Martin Garrix , Illenium and Skrillex. Trap and
+                Future bass define his sounds.
+              </p>
+              <a
+                href="https://www.instagram.com/tv/CBqn9z8p_Me/"
+                target="_blank"
                 ><button class="btn btn-lg btn-outline-light winner-btn">
                   LISTEN ENTRY
                 </button></a
               >
             </div>
           </div>
-
 
           <div class="box">
             <div class="imgBx">
@@ -164,9 +155,16 @@
             <div class="content">
               <h3>THIRD</h3>
               <p>
-                Sanxx is an aspiring EDM producer from Dehradun, India. He started his musical Journey since 2018, His constant Grind and learning never stopped. He released his first official single called "REHAB" in 2019 and since then 6 singles have been released which focused on the genres such as Future Bass, Progressive House, and Melodic Dubstep.
+                Sanxx is an aspiring EDM producer from Dehradun, India. He
+                started his musical Journey since 2018, His constant Grind and
+                learning never stopped. He released his first official single
+                called "REHAB" in 2019 and since then 6 singles have been
+                released which focused on the genres such as Future Bass,
+                Progressive House, and Melodic Dubstep.
               </p>
-              <a href="https://www.instagram.com/tv/CBqn9z8p_Me/" target="_blank"
+              <a
+                href="https://www.instagram.com/tv/CBqn9z8p_Me/"
+                target="_blank"
                 ><button class="btn btn-lg btn-outline-light winner-btn">
                   LISTEN ENTRY
                 </button></a
@@ -175,67 +173,96 @@
           </div>
         </div>
       </div>
-
-      
     </section>
     <section id="sponsors">
-      <h2 style="padding-top: 20px;">SPONSORS</h2>
+      <h2 style="padding-top: 20px">SPONSORS</h2>
       <div class="sponsors">
         <div class="sponsorBox">
-          <a href="https://www.mulo.in" target="_blank"><img src="assets/imgs/Mulo Logo.jpg" alt="" class="sponsorImg" style="position: relative;bottom: 45px;"/></a>
-  
+          <a href="https://www.mulo.in" target="_blank"
+            ><img
+              src="assets/imgs/Mulo Logo.jpg"
+              alt=""
+              class="sponsorImg"
+              style="position: relative; bottom: 45px"
+          /></a>
         </div>
         <div class="sponsorBox">
-          <a href="https://groovenexus.com" target="_blank"><img src="assets/imgs/Groovenexus-Logo-PNG-Format.png" alt="" class="sponsorImg" style="padding-left: 0;" /></a>
-  
+          <a href="https://groovenexus.com" target="_blank"
+            ><img
+              src="assets/imgs/Groovenexus-Logo-PNG-Format.png"
+              alt=""
+              class="sponsorImg"
+              style="padding-left: 0"
+          /></a>
         </div>
         <div class="sponsorBox">
-          <a href="https://www.instagram.com/studioonthego/" target="_blank"><img src="assets/imgs/sotg.jpg" alt="" class="sponsorImg" style="position: relative;bottom: 45px;" /></a>
-    
+          <a href="https://www.instagram.com/studioonthego/" target="_blank"
+            ><img
+              src="assets/imgs/sotg.jpg"
+              alt=""
+              class="sponsorImg"
+              style="position: relative; bottom: 45px"
+          /></a>
         </div>
       </div>
-     
     </section>
     <!------------------------------------- JUGDE -------------------------------------->
 
     <section id="judge">
-      <h2 style="font-size: 2rem;">JUDGES</h2>
+      <h2 style="font-size: 2rem">JUDGES</h2>
       <div class="judge">
         <div class="card">
           <div class="image">
-            <img src="assets/imgs/judge.png"/>
+            <img src="assets/imgs/judge.png" />
           </div>
           <div class="details">
             <div class="center">
-              <h1>NDS<br><span>JUDGE</span></h1>
-              <p style="font-size: 0.7rem;">Siddharth Sharma AKA NDS <br>Even though PAGE IX, his debut album was released independently, NDS has also released music with labels such as, AIA [Artist Intelligence Agency], Don’t Die At Work, Wolv Records etc. which were well received by the international audience</p>
+              <h1>NDS<br /><span>JUDGE</span></h1>
+              <p style="font-size: 0.7rem">
+                Siddharth Sharma AKA NDS <br />Even though PAGE IX, his debut
+                album was released independently, NDS has also released music
+                with labels such as, AIA [Artist Intelligence Agency], Don’t Die
+                At Work, Wolv Records etc. which were well received by the
+                international audience
+              </p>
               <ul>
-                <li><a href="https://www.instagram.com/ndsonline/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li>
+                  <a href="https://www.instagram.com/ndsonline/" target="_blank"
+                    ><i class="fab fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
-  
-        
+
         <div class="card">
           <div class="image">
-            <img src="assets/imgs/prelimjudge.png" style="object-fit: cover;" />
+            <img src="assets/imgs/prelimjudge.png" style="object-fit: cover" />
           </div>
           <div class="details">
             <div class="center">
-              <h1>REAY<br><span>PRELIMS JUDGE</span></h1>
-              <p style="font-size: 0.7rem;">Delhi based Music producer, DJ and Visual designer Rahul Ningthemcha AKA Reay. After being inspired by many international and local artists, REAY started producing at an age of 18 , since then he had produced many refreshing remixes and haunting originals.</p>
+              <h1>REAY<br /><span>PRELIMS JUDGE</span></h1>
+              <p style="font-size: 0.7rem">
+                Delhi based Music producer, DJ and Visual designer Rahul
+                Ningthemcha AKA Reay. After being inspired by many international
+                and local artists, REAY started producing at an age of 18 ,
+                since then he had produced many refreshing remixes and haunting
+                originals.
+              </p>
               <ul>
-                <li><a href="https://www.instagram.com/reayxx/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li>
+                  <a href="https://www.instagram.com/reayxx/" target="_blank"
+                    ><i class="fab fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
-     
-      
     </section>
-    
+
     <!-- Contacts -->
     <section
       id="contact-us"
@@ -290,18 +317,22 @@
             <div class="col-lg-3 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
                 <li>
-                  <i class="fa fa-angle-right"></i> <a href="Initiative.html">Initiatives</a>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="index.html">Home</a>
                 </li>
                 <li>
-                  <i class="fa fa-angle-right"></i> <a href="abhivyakti.html">Abhivyakti</a>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="abhivyakti.html">Abhivyakti</a>
                 </li>
                 <li>
-                  <i class="fa fa-angle-right"></i> <a href="spinback.html">Spinback</a>
+                  <i class="fa fa-angle-right"></i>
+                  <a href="spinback.html">Spinback</a>
                 </li>
-                <li><i class="fa fa-angle-right"></i> <a href="team.html">Team</a></li>
-              </ul> 
+                <li>
+                  <i class="fa fa-angle-right"></i> <a href="team.html">Team</a>
+                </li>
+              </ul>
             </div>
 
             <div class="col-lg-3 col-md-6 footer-contact">
