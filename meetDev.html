@@ -49,7 +49,7 @@
       <nav class="navbar navbar-expand">
         <a class="navbar-brand" href="">
           <img
-            src="./assets/imgs/Logo.png"
+            src="assets/imgs/logoBig.png"
             alt="Kalakriti Logo"
             class="logo-img"
           />
@@ -82,7 +82,7 @@
       </ul>
     </div>
 
-    <section id="devTitle">
+    <section id="devTitle" style = "padding-top:7rem">
       <h1>DEV TEAM</h1>
     </section>
 
@@ -385,6 +385,10 @@
     <!-- AOS DATA -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
+    function toggle_div() {
+  var element = document.getElementById("sidebar");
+  element.classList.toggle("active");
+}
       AOS.init();
     </script>
   </body>
