@@ -42,7 +42,7 @@
     <!-- Title -->
     <div class="container-fluid nav-container">
       <nav class="navbar navbar-expand">
-        <a class="navbar-brand" href="">
+        <a class="navbar-brand" href="index.html">
           <img
             src="assets/imgs/logoBig.png"
             alt="Kalakriti Logo"
@@ -61,6 +61,9 @@
               <a class="nav-link" href="spinback.html">SPINBACK</a>
             </li>
             <li class="nav-item center">
+              <a class="nav-link" href="artists.html">Artists</a>
+            </li>
+            <li class="nav-item center">
               <a class="nav-link" href="team.html">MEET THE TEAM</a>
             </li>
           </ul>
@@ -73,6 +76,7 @@
         <li><a href="index.html">HOME</a></li>
         <li><a href="abhivyakti.html">ABHIVYAKTI</a></li>
         <li><a href="spinback.html">SPINBACK</a></li>
+        <li><a href="artists.html">Artists</a></li>
         <li><a href="team.html">MEET THE TEAM!</a></li>
       </ul>
     </div>
@@ -452,7 +456,8 @@
           window.scrollY + window.outerHeight > dv.offsetTop
         ) {
           if (v.src == "" || v.src == location.href) {
-            v.src = "https://www.youtube.com/embed/vWPYmZ5uL_E?mute=0&autoplay=1";
+            v.src =
+              "https://www.youtube.com/embed/vWPYmZ5uL_E?mute=0&autoplay=1";
           }
         } else {
           v.src = "";
@@ -464,10 +469,10 @@
     <!-- AOS DATA -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-    function toggle_div() {
-  var element = document.getElementById("sidebar");
-  element.classList.toggle("active");
-}
+      function toggle_div() {
+        var element = document.getElementById("sidebar");
+        element.classList.toggle("active");
+      }
       AOS.init();
     </script>
   </body>

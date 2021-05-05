@@ -1,0 +1,90 @@
+.table {
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  margin-bottom: 0;
+  padding: 0% 0%;
+  width: 100%;
+}
+.council__form {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+  padding-top: 4%;
+}
+iframe {
+  width: 90vw;
+}
+.sop__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box {
+  width: 25vw;
+  margin: 1%;
+  height: 60vh;
+  border: 2px solid brown;
+  border-radius: 25px;
+  padding: 1% 1%;
+  overflow: scroll;
+}
+.box h1 {
+  font-size: 30px;
+}
+.box p {
+  text-align: justify;
+  font-size: 15px;
+}
+table {
+  width: 100%;
+}
+#team_title {
+  padding: 5% 7%;
+  padding-top: 10%;
+  background-color: black;
+}
+#team_title h1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  margin: 0;
+}
+.voting_btn {
+  padding: 15px;
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid white;
+  background-color: blue;
+  color: white;
+}
+.voting_btn:hover {
+  background-color: green;
+}
+
+@media only screen and (max-width: 800px) {
+  #team_title h1 {
+    font-size: 6rem;
+  }
+}
+@media only screen and (max-width: 450px) {
+  #team_title h1 {
+    font-size: 3rem;
+  }
+  #team_title {
+    padding-top: 9.5%;
+  }
+  .sop__row {
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .box {
+    width: 80vw;
+    height: 70vh;
+    padding: 2% 2%;
+  }
+}

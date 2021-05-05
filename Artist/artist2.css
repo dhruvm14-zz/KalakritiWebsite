@@ -1,0 +1,415 @@
+.back {
+  position: absolute;
+  top: 180px;
+  margin-left: 60px;
+  color: rgb(185, 184, 184);
+}
+
+.upper-half {
+  display: flex;
+  flex-direction: row;
+  margin: 30px;
+  margin-top: 8vh;
+  width: 100vw;
+  height: 120vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  display: flex;
+  position: relative;
+  margin: auto;
+  max-width: 50vw;
+  padding: 30px;
+  height: 95vh;
+  box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  background-size: cover;
+  background-position: center;
+  background-color: white;
+}
+body {
+  background-color: #191919;
+  color: white;
+}
+/* Hide the images by default */
+.mySlides {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 15px;
+  height: 85vh;
+  max-width: 40vw;
+}
+
+.slider-img {
+  height: 85vh;
+  border-radius: 20px;
+  max-width: 40vw;
+}
+.slider-img img {
+  object-fit: cover;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.prev {
+  margin-left: -35px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Profile */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  width: 65vw;
+  /* position: absolute;
+  top: 180px;
+  left: 770px; */
+}
+.profile-info {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10vh;
+  padding: 20px 50px;
+  font-family: "centuryGothic" !important;
+}
+.profile-image {
+  position: relative;
+  height: 40vh;
+  width: 20vw;
+}
+.profile-pic {
+  height: 40vh;
+  width: 20vw;
+  border-radius: 25px;
+  border: 2px solid white;
+}
+.profile-pic img {
+  object-fit: cover;
+}
+
+.about-artist {
+  display: flex;
+  flex-direction: column;
+}
+.about-artist h4 {
+  font-family: "centuryGothic" !important;
+  font-weight: 600;
+  font-size: 3vw;
+  margin-bottom: 1vh;
+  padding: 2px 5px;
+}
+
+.art-discription {
+  display: flex;
+  margin-top: 0;
+}
+.about-artist p {
+  font-weight: 400;
+  font-family: "centuryGothic" !important;
+  text-align: justify;
+  font-size: 1.5vw;
+  padding: 7px 5px;
+}
+
+.about-artist-info {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.art-discription {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 1vw;
+}
+.profile-container > p {
+  font-size: 1.1rem;
+  max-height: 30vh;
+  overflow: scroll;
+  margin-right: 1.2rem;
+  padding: 10px;
+}
+.art-heading {
+  margin-bottom: 0;
+}
+
+.artist-contact {
+  display: flex;
+  flex-direction: column;
+}
+.social-accounts {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.port_bio {
+  overflow: scroll;
+}
+/* lower-half */
+.lower-half {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.paintings-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: auto;
+
+  width: 90vw;
+
+  max-width: 90vw;
+  justify-content: space-evenly;
+}
+
+.painting-aligment {
+  padding: 20px;
+  max-width: 45vw;
+}
+.paintings {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  border: 2px solid white;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 1100px) {
+  .art-discription {
+    margin: 0;
+  }
+
+  .lower-half {
+    position: relative;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .prev,
+  .next {
+    margin-top: -22px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0px;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .slideshow-container {
+    height: 68vh;
+    width: 80vw;
+  }
+  .slider-img {
+    width: 80vw;
+    height: 100%;
+  }
+  .upper-half {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 30px;
+    width: 95vw;
+    height: auto;
+    margin: 0;
+  }
+
+  .slideshow-container {
+    display: flex;
+
+    position: relative;
+
+    margin: auto;
+    max-width: 100vw;
+    height: fit-content;
+    padding: 10px;
+    box-shadow: 0px 18px 53px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+  }
+
+  /* Hide the images by default */
+  .mySlides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0px;
+    height: 45vh;
+
+    width: 40rem;
+  }
+  .prev {
+    left: 35px;
+  }
+
+  .slider-img {
+    border-radius: 20px;
+    width: 15rem;
+    max-width: 100vw;
+  }
+  .slider-img img {
+    object-fit: contain;
+  }
+
+  /* Profile */
+  .profile-container {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .profile-info {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0vh;
+    padding: 5px 0px;
+  }
+  .profile-image {
+    position: relative;
+    height: 25vh;
+    width: 30vw;
+  }
+  .profile-pic {
+    height: 25vh;
+    width: 30vw;
+    border-radius: 25px;
+  }
+  .profile-pic img {
+    object-fit: cover;
+  }
+
+  .about-artist {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-artist h4 {
+    font-family: "centuryGothic" !important;
+    font-weight: 600;
+    font-size: 8vw;
+    margin-bottom: 1vh;
+    padding: 2px 5px;
+  }
+
+  .art-discription {
+    display: flex;
+    margin-top: 0;
+  }
+  .about-artist p {
+    font-weight: 400;
+    font-family: "centuryGothic" !important;
+    text-align: justify;
+    font-size: 2.5vw;
+    padding: 0px 5px;
+  }
+
+  .about-artist-info {
+    display: flex;
+    flex-direction: column;
+    min-height: 15vh;
+  }
+  .profile-container > p {
+    font-size: 0.5rem;
+    margin: 0;
+  }
+  .art-discription {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 2vw;
+  }
+  .art-heading {
+    margin-bottom: 5px;
+  }
+  .art-heading span {
+    font-size: 2vw;
+  }
+
+  .artist-contact {
+    display: flex;
+    flex-direction: column;
+  }
+  .social-accounts {
+    display: flex;
+    flex-direction: row;
+
+    margin-bottom: 0px;
+    justify-content: space-between;
+  }
+
+  .lower-half {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .painting-aligment {
+    max-width: 85vw;
+    width: 80vw;
+  }
+  .paintings-container {
+    flex-direction: column;
+  }
+}

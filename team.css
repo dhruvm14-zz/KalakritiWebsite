@@ -3,7 +3,7 @@ h2 {
 }
 
 #team_title {
-  padding-top: 6%;
+  padding-top: 10%;
   background-color: #191919;
 }
 #team_title h1 {
@@ -52,7 +52,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 
   align-items: center;
   justify-content: space-between;
@@ -213,6 +213,23 @@ h2 {
   background: #ff3636;
 }
 
+.past_council {
+  background-color: #191919;
+  color: white;
+  padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.past_council h1 {
+  font-size: 25px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.dropdown-menu-council {
+  min-width: 80px !important;
+  margin: 0 !important;
+}
 /*-------------------------------------MEET THE DEV-------------------------------- */
 #devTitle {
   padding-top: 10rem;
@@ -256,4 +273,12 @@ h2 {
   #team_title {
     padding-top: 9.5%;
   }
+}
+/*--------------------------------------------------------------------- */
+
+.team-group {
+  display: none;
+}
+.team-group.active {
+  display: block;
 }
