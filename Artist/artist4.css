@@ -10,6 +10,7 @@
   flex-direction: row;
   margin: 30px;
   margin-top: 8vh;
+  padding-top: 5%;
   width: 100vw;
   height: 120vh;
 }
@@ -111,7 +112,9 @@ body {
 .profile-container {
   display: flex;
   flex-direction: column;
-  width: 65vw;
+  width: 50vw;
+  padding-left: 12px;
+  padding-right: 12px;
   /* position: absolute;
   top: 180px;
   left: 770px; */
@@ -120,13 +123,14 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 10vh;
-  padding: 20px 50px;
+  padding: 20px 20px;
   font-family: "centuryGothic" !important;
 }
 .profile-image {
   position: relative;
   height: 40vh;
   width: 20vw;
+  margin-right: 5px;
 }
 .profile-pic {
   height: 40vh;
