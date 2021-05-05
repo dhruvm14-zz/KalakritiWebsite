@@ -373,7 +373,7 @@ body {
   }
   .profile-container > p {
     font-size: 0.5rem;
-    margin: 0;
+    margin: 10px;
   }
   .art-discription {
     display: flex;
