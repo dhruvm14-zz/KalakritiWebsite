@@ -11,6 +11,12 @@ h2 {
   color: whitesmoke;
   margin: 0;
 }
+.secRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .team {
   color: whitesmoke;
