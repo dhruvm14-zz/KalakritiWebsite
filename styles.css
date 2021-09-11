@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
 @font-face {
   font-family: "centuryGothic";
-  src: url(assets/CenturyGothic\ -\ Century\ Gothic\ -\ Regular.ttf);
+  src: url("assets/CenturyGothicCenturyGothicRegular.ttf");
 }
 @font-face {
   font-family: "gotham";
@@ -236,7 +236,7 @@ a.nav-link:hover:after {
 .description {
   width: 100%;
   min-height: 30vh;
-  background-image: url("assets/imgs/DescriptionBG.png");
+  background-image: url("/assets/imgs/DescriptionBG.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,7 +275,7 @@ a.nav-link:hover:after {
 }
 
 #event {
-  background-image: url("./assets/imgs/EventsBG.png");
+  background-image: url("/assets/imgs/EventsBG.png");
   min-height: 90vh;
   background-size: cover;
   background-position: center;
@@ -288,14 +288,13 @@ a.nav-link:hover:after {
   width: 65vw;
   padding: 10vh 0;
 }
-
 #abhivyakti {
   min-height: 30vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("assets/imgs/AbhivyaktiBG.png");
+  background-image: url("/assets/imgs/AbhivyaktiBG.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -388,7 +387,7 @@ a.nav-link:hover:after {
 }
 .about-right {
   padding: 5% 7%;
-  background-image: url("assets/imgs/aboutback.jpg");
+  background-image: url("/assets/imgs/aboutback.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

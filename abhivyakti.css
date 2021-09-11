@@ -1,189 +1,182 @@
-
-#title{
-    position: relative;
-    background-image: url("assets/imgs/Abhi-back.jpg");
-    color: black;
-    height: 100vh;
-    padding: 20% 7%;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+#title {
+  position: relative;
+  background-image: url("assets/imgs/Abhi-back.jpg");
+  color: black;
+  height: 100vh;
+  padding: 20% 7%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.title{
-    color: black;
-    margin: 0;
-    top: 20;
-    left: 80;
-    padding: 5% 7%;
-    overflow: hidden;
-    z-index: 1;
+.title {
+  color: black;
+  margin: 0;
+  top: 20;
+  left: 80;
+  padding: 5% 7%;
+  overflow: hidden;
+  z-index: 1;
 }
-.about-left img{
-    transition: transform 0.8s;
+.about-left img {
+  transition: transform 0.8s;
 }
-.about-left img:hover{
-    transform: rotateY(180deg);
+.about-left img:hover {
+  transform: rotateY(180deg);
 }
-.about-right{
-    background: rgb(242,48,2);
-background: black;
+.about-right {
+  background: rgb(242, 48, 2);
+  background: black;
 }
-.about-text{
-    color: #fff;
+.about-text {
+  color: #fff;
 }
 /* FIGURES */
-#figures{
-    padding: 5% 2%;
-    color: white;
-    background-color: #ff346f;
+#figures {
+  padding: 5% 2%;
+  color: white;
+  background-color: #ff346f;
 }
 
 /* YT */
-#yt{
-    padding: 5%;
-    background-color: black;
+#yt {
+  padding: 5%;
+  background-color: black;
 }
-iframe{
-    border: none;
-    width:70%; 
-    height:500px;
+iframe {
+  border: none;
+  width: 70%;
+  height: 500px;
 }
-#yt h2{
-    color: #fff;
-    padding-top: 30px;
-    letter-spacing: 20px;
+#yt h2 {
+  color: #fff;
+  padding-top: 30px;
+  letter-spacing: 20px;
 }
 /* GALLERY */
-#gallery{
-    padding: 5% 4%;
-    background-color: #191919;
+#gallery {
+  padding: 5% 4%;
+  background-color: #191919;
 }
-#gallery ul{
-    display: flex;
+#gallery ul {
+  display: flex;
 
-    padding-left: 35px;
+  padding-left: 35px;
 }
-#gallery li{
-    list-style: none;
-    padding: 8px 20px;
-    background-color: #eeeeee;
-    margin: 5px;
-    letter-spacing: 1px;
-    cursor: pointer;
+#gallery li {
+  list-style: none;
+  padding: 8px 20px;
+  background-color: #eeeeee;
+  margin: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
-#gallery li.active{
-    background-color: #03bcf4;
-    color: #fff;
+#gallery li.active {
+  background-color: #03bcf4;
+  color: #fff;
 }
-.galleryHeader{
-    color: #fff;
+.galleryHeader {
+  color: #fff;
 }
-.pics{
-    display: flex;
-    flex-wrap: wrap;
-    overflow: auto;
-    height: 600px;
-    margin-left: 20px;
+.pics {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 600px;
+  margin-left: 20px;
 }
-.pic{
-    position: relative;
-    height: 250px;
-    width: 250px;
-    margin: 15px;
+.pic {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 15px;
 }
-.pic img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.pic img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-.pic:hover{
-    transform: scale(1.1);
-    z-index: 1;
-    
+.pic:hover {
+  transform: scale(1.1);
+  z-index: 1;
 }
-.modal-body{
-    padding:0;
+.modal-body {
+  padding: 0;
 }
-.modal-body img{
-    width: 100%;
-    height: 100%;
+.modal-body img {
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 980px) {
-    .pic{
-        position: relative;
-        height: 120px;
-        width: 120px;
-        margin: 10px;
-    }
-    #gallery li{
-        
-        padding: 8px 8px;
-        margin: 5px;
-     
-        cursor: pointer;
-    }
-    iframe{
-        border: none;
-        width:70%; 
-        height:400px;
-    }
+  .pic {
+    position: relative;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
   }
-  @media only screen and (max-width: 400px) {
-    .pic{
-        margin: 5px;
-    }
-    #gallery li{
-        margin: 3px;
-    }
-    #gallery ul{
-        display: flex;
-    
-        padding-left: 15px;
-    }
-    .fig-para{
-        font-size: 10px;
-    }
+  #gallery li {
+    padding: 8px 8px;
+    margin: 5px;
+
+    cursor: pointer;
   }
-  @media only screen and (max-width: 600px) {
-    iframe{
-        border: none;
-        width:350px; 
-        height:200px;
-    }
-    #yt h2{
-        
-        letter-spacing: 8px;
-    }
-    #title{
-        background-image: url("assets/imgs/Abhi-mobile.jpg");
-    }
+  iframe {
+    border: none;
+    width: 70%;
+    height: 400px;
   }
-  @media only screen and (max-width: 350px) {
-    .pic{
-        position: relative;
-        height: 90px;
-        width: 100px;
-        margin: 2px;
-    }
-    #gallery li{
-        
-        padding: 8px 4px;
-        margin: 0.5px;
-        
-        cursor: pointer;
-    }
-    iframe{
-        border: none;
-        width:300px; 
-        height:150px;
-    }
-    #yt h2{
-        
-        letter-spacing: 2px;
-    }
+}
+@media only screen and (max-width: 400px) {
+  .pic {
+    margin: 5px;
   }
-    
+  #gallery li {
+    margin: 3px;
+  }
+  #gallery ul {
+    display: flex;
+
+    padding-left: 15px;
+  }
+  .fig-para {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  iframe {
+    border: none;
+    width: 350px;
+    height: 200px;
+  }
+  #yt h2 {
+    letter-spacing: 8px;
+  }
+  #title {
+    background-image: url("assets/imgs/Abhi-mobile.jpg");
+  }
+}
+@media only screen and (max-width: 350px) {
+  .pic {
+    position: relative;
+    height: 90px;
+    width: 100px;
+    margin: 2px;
+  }
+  #gallery li {
+    padding: 8px 4px;
+    margin: 0.5px;
+
+    cursor: pointer;
+  }
+  iframe {
+    border: none;
+    width: 300px;
+    height: 150px;
+  }
+  #yt h2 {
+    letter-spacing: 2px;
+  }
+}
